@@ -8,7 +8,8 @@ The slip is fixed text: one prophetic, funny line about the human who
 says "just one small change". The program's only job is to carry that
 line, unchanged, into the file the kit's contract names. It takes no
 arguments, reads no input, calls no network and keeps no state, so
-every run lands the same bytes.
+every run lands the same bytes. (Revision note: docstring only; the
+slip text and the emitted bytes are unchanged from v1.)
 """
 
 import os
